@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+.index {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    border-bottom: 1px solid #000000;
+    margin-top: 100px;
+    color:#711414;
+}
+
+h2 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.muestra {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card-title {
+    font-family: 'Manrope', sans-serif;
+}
+
+.btn {
+    background-color: #711414;
+    border-color: #711414;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    box-align: center;
+}
+
+.btn:hover {
+    background-color: #440C0C;
+    border-color: #440C0C;
+    color: white;
+}
+
+.precioCarrito {
+    text-align: right;
+    color: #711414;
+    font-weight: bold;
+}
+
+.retiro {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+#total {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    background-color: #711414;
+    color: white;
+}
